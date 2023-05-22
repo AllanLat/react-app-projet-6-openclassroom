@@ -19,8 +19,8 @@ export default function Header() {
       {/* Menu */}
       <div id="menu">
         <ul>
-          <li><a href="./">Accueil</a></li>
-          <li><a href="./">A Propos</a></li>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/test">A Propos</a></li>
         </ul>
      </div>
     </div>

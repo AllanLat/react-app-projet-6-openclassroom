@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 40px 100px;
+    padding: 40px 0px;
 }
 
 ul {
@@ -22,6 +22,7 @@ li {
 
 /* A Propos */
 #menu li a {
+    text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -35,6 +36,10 @@ li {
     color: #FF6060;
 }
 
+#menu li a:hover {
+    text-decoration: underline;
+    color: #FF6060;
+}
 
 
 
