@@ -1,7 +1,10 @@
 import React from 'react'
+import Banner from '../../components/banner/banner';
 
 export default function Home() {
   return (
-    <div>Coucou</div>
+    <>
+      <Banner texte={'Chez vous, partout et ailleurs'}/>
+    </>
   )
 }

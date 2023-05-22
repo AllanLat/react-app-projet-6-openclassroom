@@ -1,0 +1,77 @@
+/* .banner {
+    background-image: url("../../../public/img/image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+
+    border-radius: 25px;
+    min-height: 225px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner > h1 {
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 142.6%;
+
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+
+}
+ */
+
+ .banner {
+    position: relative;
+    background-position: center ;
+    background-image: url("../../../public/img/image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+
+    border-radius: 25px;
+    min-height: 225px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .banner::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur semi-transparente sombre */
+    z-index: 1 ; /* Positionne l'élément derrière le contenu texte */
+    border-radius: 25px;
+    mix-blend-mode: multiply; /* Mélange les couleurs de l'image avec la couleur de fond sombre */
+  }
+  
+  .banner > h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 142.6%;
+    /* or 68px */
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    z-index: 1; /* Positionne le texte devant l'arrière-plan */
+  }
+  

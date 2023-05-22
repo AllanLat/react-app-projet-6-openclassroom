@@ -4,7 +4,7 @@ import './footer.css';
 export default function Footer() {
   return (
     <footer>
-      <div class='footer'>
+      <div className='footer'>
         <div id="logoFooter">
           <svg width="122" height="40" viewBox="0 0 122 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M11.6445 20.0984L5.12785 26.762V36.1125H0V0H5.12785V20.2058L24.5709 0H30.4466L15.1699 16.2292L31.5149 36.1125H25.5324L11.6445 20.0984Z" fill="white" />
