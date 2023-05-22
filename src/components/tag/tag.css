@@ -1,0 +1,17 @@
+.btnTag {
+    background: var(--rouge);
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+    color: var(--blanc);
+    border: none;
+    text-decoration: none;
+}
+
+.btnTag:hover {
+    background: var(--degraderRouge);
+}

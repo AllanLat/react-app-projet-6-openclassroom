@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // Router
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 // Templates
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
+
 // Coeurs d'application
 import Home from './pages/home/home';
 import About from './pages/about/about';
+import F404 from './pages/404/404';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +22,8 @@ root.render(
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/test" element={<About />} />
+              <Route path="/404" element={<F404 />} />
+            
             </Routes>
       </Router>
     <Footer />  

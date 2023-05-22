@@ -1,0 +1,10 @@
+.parentGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--gris);
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 25px;
+}
