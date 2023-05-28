@@ -19,9 +19,6 @@ export default function Grid() {
         const response = await fetch('http://localhost:3000/data/data.json');
         const data = await response.json();
         setDonnees(data);
-
-
-
         
       } catch (error) {
         console.log('Aie')

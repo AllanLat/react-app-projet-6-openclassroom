@@ -22,8 +22,7 @@ root.render(
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/test" element={<About />} />
-              <Route path="/404" element={<F404 />} />
-            
+              <Route path='*' element={<F404 />}/>
             </Routes>
       </Router>
     <Footer />  
