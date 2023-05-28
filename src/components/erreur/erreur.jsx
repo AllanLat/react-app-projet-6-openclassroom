@@ -6,6 +6,7 @@ export default function erreur({type, message}) {
     <div className="erreur">
         <p className='erreurNumber'>{type}</p>
         <p className='erreurMessage'>{message}</p>
+        <p className='erreurButton'> <a href="/" className="returnHome">Retourner sur la page d'accueil</a></p>
     </div>
   )
 }

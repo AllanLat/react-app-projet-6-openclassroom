@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 175px;
 }
 
 .erreurNumber {
@@ -13,12 +12,11 @@
     display: flex;
     align-items: center;
     text-align: center;
-
-    color: var(--rouge);
 }
 
-.erreur p {
+.erreur p , a {
     margin: 0;
+    color: var(--rouge);
 }
 
 .erreurMessage {
@@ -29,5 +27,10 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: var(--rouge);
+    margin-top: 60px !important;
+}
+
+.erreurButton{
+    margin-top: 100px !important;
+    margin-bottom: 100px;
 }
