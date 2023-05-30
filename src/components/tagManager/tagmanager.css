@@ -1,0 +1,4 @@
+.tagManager li {
+    display: inline-block;
+    margin-left: 10px; /* Ajoute de l'espace entre les éléments de la liste */
+  }

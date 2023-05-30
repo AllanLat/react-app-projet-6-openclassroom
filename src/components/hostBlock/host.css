@@ -1,0 +1,28 @@
+.host-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.col-6 {
+    width: 50%;
+    padding: 10px;
+}
+
+img {
+    /* image ronde avec 64px de haut et de large */
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.host-block p {
+    text-align: end;
+    
+}
+
+.host-block p {
+   color: var(--rouge);
+}

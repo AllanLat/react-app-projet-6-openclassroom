@@ -34,7 +34,7 @@ export default function Grid() {
       <div className='parentGrid'>
         {console.log(donnees)}
         {donnees.map(donnees => (
-          <PostGrid key={donnees.id} text={donnees.title} img={donnees.cover}/>
+          <PostGrid key={donnees.id} text={donnees.title} img={donnees.cover} url={`/logement/${donnees.id}`}/>
         ))}
       </div>
     );
