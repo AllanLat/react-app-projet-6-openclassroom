@@ -1,11 +1,6 @@
 .parentGrid {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around; */
     display: grid;
-    grid-template-columns: repeat(3, 33%);
-    gap: 30px;
+    grid-template-columns: repeat(3, 33.3%);
     background-color: var(--gris);
     margin-bottom: 20px;
     padding: 30px;
