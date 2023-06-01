@@ -62,4 +62,8 @@
     margin-left: 15px; /* Ajoute de l'espace entre les éléments de la liste */
   }
 
+  .header {
+    padding: 10px;
+  }
+
 }

@@ -6,11 +6,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center ;
-
     border-radius: 25px;
     min-height: 225px;
-
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,3 +42,15 @@
     z-index: 1; /* Positionne le texte devant l'arrière-plan */
   }
   
+  @media screen and (max-width: 767px) {
+    .banner > h1 {
+      font-size: 24px;
+    }
+
+    .banner {
+      min-height: 111px;
+      padding: 30px 16px;
+    }
+
+    
+  }
