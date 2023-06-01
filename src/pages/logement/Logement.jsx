@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import F404 from '../../pages/404/404';
+
 import Carousel from '../../components/carousel/carousel';
 import Tags from '../../components/tagManager/tagManager';
 import Host from '../../components/hostBlock/host';
-import './logement.css';
 import Collapse from '../../components/collaspe/collapse';
 import Ratings from '../../components/ratings/ratings';
 
+import './logement.css';
 
 function Logement() {
     const [logement, setLogement] = useState(null);
@@ -24,7 +25,7 @@ function Logement() {
       fetchLogement();
     }, [id]);
     
-    //Si le logement n'est pas trouvé, affficher 
+    //Si le logement n'est pas trouvé, affficher //Metre le return de redirection.
     if (!logement) {
       return <F404 />;
     }

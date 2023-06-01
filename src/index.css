@@ -35,6 +35,14 @@ code {
   margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 767px) {
+  #root > * {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+  }
+}
+
 
 @font-face {
   font-family: 'Montserrat';
