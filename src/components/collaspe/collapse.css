@@ -33,3 +33,9 @@ display: block;
 .collapseContent p {
     margin: 0;
 }
+
+
+.collapseContent ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
