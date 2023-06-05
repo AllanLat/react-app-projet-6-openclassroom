@@ -6,3 +6,13 @@
     padding: 30px;
     border-radius: 25px;
 }
+
+
+@media screen and (max-width: 767px) {
+    .parentGrid {
+        grid-template-columns: repeat(1, 100%);
+        padding: 0px;
+        background-color: white;
+    }
+    
+}

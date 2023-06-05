@@ -59,3 +59,17 @@
     margin-bottom: 40px;
 }
 
+@media screen and (max-width: 767px) {
+    .postLink {
+        height: auto;
+        min-height: 255px;
+    }
+    
+    .contentThumbnail {
+        padding-right: 0.5rem;
+    }
+
+    .contentThumbnail h3 {
+        margin: 0;
+    }
+}

@@ -40,7 +40,7 @@ function Logement() {
                 <h2>{logement.location}</h2>
                 <Tags tags={logement.tags}/>
             </div>
-            <div>
+            <div className='infos-host'>
                 <Host host={logement.host}/>
                 <Ratings rating={logement.rating} />
             </div>

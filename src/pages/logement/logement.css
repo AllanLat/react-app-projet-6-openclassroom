@@ -45,3 +45,34 @@ align-items: flex-end;
 color: #FF6060;
 
 }
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 24px;
+    }
+    
+    .title-block, .collapse-block {
+        width: 100%;
+    }
+    .infos-logement {
+        flex-wrap: wrap;
+    }
+
+    .infos-host {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    .collapse-block {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .collapse-parent {
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+}

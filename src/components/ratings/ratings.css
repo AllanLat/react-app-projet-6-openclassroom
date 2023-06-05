@@ -6,8 +6,8 @@
   }
   
   .star-rating span {
-    display: inline-block;
-    vertical-align: middle;
+    display: inline-flex;
+    flex-direction: row;
     padding-right: 5px ;
   }
   
@@ -15,3 +15,16 @@
     color:  #E3E3E3;
   }
   
+  @media screen and (max-width: 768px) {
+    .star-rating {
+      font-size: 0.7rem;
+    }
+    
+    .star-rating {
+      padding-right: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+  }
