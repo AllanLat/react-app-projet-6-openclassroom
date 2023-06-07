@@ -25,7 +25,6 @@ function Logement() {
       fetchLogement();
     }, [id]);
     
-    //Si le logement n'est pas trouvé, affficher //Metre le return de redirection.
     if (!logement) {
       return <F404 />;
     }

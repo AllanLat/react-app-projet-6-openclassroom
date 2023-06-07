@@ -7,8 +7,8 @@ export default function tagManager({tags}) {
 
   return (
     <ul className='tagManager'>
-        {tags.map((tag, index) => (
-            <li><Tag key={index} texte={tag} /></li>
+        {tags.map((tag) => (
+            <li key={tag}><Tag  texte={tag} /></li>
         ))}
       </ul>
   )

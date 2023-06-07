@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 import "./carousel.css";
 
-// const images = [
-//   "https://picsum.photos/id/1018/300/200",
-//   "https://picsum.photos/id/1015/300/200",
-//   "https://picsum.photos/id/1019/300/200",
-//   "https://picsum.photos/id/1020/300/200",
-// ];
-
 function Carousel({images}) {
     const [currentIndex, setCurrentIndex] = useState(0);
   
